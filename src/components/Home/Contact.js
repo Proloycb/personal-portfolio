@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
     const form = useRef();
@@ -10,6 +11,7 @@ const Contact = () => {
         emailjs.sendForm('service_fn3ezbd', 'template_aod73bs', form.current, 'ewpXs4udmqe-ppobu')
             .then((result) => {
                 console.log(result.text);
+                toast.success('Message sent');
                 e.target.reset();
             }, (error) => {
                 console.log(error.text);
@@ -43,7 +45,7 @@ const Contact = () => {
                     placeholder='Your message'
                     rows={6}
                 ></textarea>
-                <input type="submit" className='btn btn-primary' value="Send" />
+                <input type="submit" className='btn btn-primary' value="Submit" />
             </form>
         </div>
     );
