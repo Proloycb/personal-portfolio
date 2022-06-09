@@ -6,8 +6,8 @@ const Navbar = () => {
     const menuItems = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/">About</Link></li>
-        <li><Link to="/">Projects</Link></li>
-        <li><Link to="/">Contact</Link></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
         
         <li><a href='https://drive.google.com/file/d/1V8lEo8N9VutvhXzPvRl-9IzTXXGcFms0/view?usp=sharing' target="_blank" className='btn btn-outline btn-success'>Resume</a></li>
     </>
