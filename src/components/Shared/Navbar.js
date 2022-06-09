@@ -12,7 +12,7 @@ const Navbar = () => {
         <li><a href='https://drive.google.com/file/d/1V8lEo8N9VutvhXzPvRl-9IzTXXGcFms0/view?usp=sharing' target="_blank" className='btn btn-outline btn-success'>Resume</a></li>
     </>
     return (
-        <div class="navbar bg-base-100 sticky">
+        <div class="navbar text-success">
             <div class="navbar-start">
                 <div class="dropdown">
                     <label tabindex="0" class="btn btn-ghost lg:hidden">
