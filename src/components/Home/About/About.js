@@ -5,7 +5,7 @@ import proloy from "../../../image/PROLOY (1).jpg";
 const About = () => {
     return (
         <div id='about'>
-            <h2 className='text-3xl text-white font-bold text-center mt-5'>About <span className='text-primary'>me</span></h2>
+            <h2 className='text-3xl text-white font-bold text-center mt-5 mb-0'>About <span className='text-primary'>me</span></h2>
             <div className="hero min-h-screen">
                 <div className="hero-content flex-col lg:flex-row">
                     <img src={proloy} className="xs:max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm rounded-full" alt='' />

@@ -10,6 +10,7 @@ import { loadFull } from "tsparticles";
 import ProjectsDetail1 from "./components/ProjectsDetails/ProjectsDetail1";
 import ProjectsDetail2 from "./components/ProjectsDetails/ProjectsDetail2";
 import ProjectsDetail3 from "./components/ProjectsDetails/ProjectsDetail3";
+import Blogs from "./components/Home/Blogs";
 
 function App() {
   const particlesInit = async (main) => {
@@ -105,6 +106,7 @@ function App() {
           <Route path="/projectsDetail1" element={<ProjectsDetail1/>}/>
           <Route path="/projectsDetail2" element={<ProjectsDetail2/>}/>
           <Route path="/projectsDetail3" element={<ProjectsDetail3/>}/>
+          <Route path="/blogs" element={<Blogs/>}/>
         </Routes>
         <Footer />
         <ToastContainer />

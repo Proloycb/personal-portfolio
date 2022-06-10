@@ -8,6 +8,7 @@ const Navbar = () => {
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><Link to="/blogs">Blogs</Link></li>
         
         <li><a href='https://drive.google.com/file/d/1V8lEo8N9VutvhXzPvRl-9IzTXXGcFms0/view?usp=sharing' target="_blank" className='btn btn-outline btn-success'>Resume</a></li>
     </>

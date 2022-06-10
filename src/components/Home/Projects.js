@@ -7,7 +7,7 @@ import trainer from "../../image/trainer.png"
 const Projects = () => {
     return (
         <div id='projects'>
-            <h3 className='text-white font-bold text-center mt-8'>My Recent Work</h3>
+            <h3 className='text-white font-bold text-center'>My Recent Work</h3>
             <h2 className='text-primary text-3xl text-center mb-8'>Projects</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 <div className="card card-compact lg:max-w-lg bg-slate-900 text-white shadow-xl">
