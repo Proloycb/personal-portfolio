@@ -7,7 +7,7 @@ import trainer from "../../image/trainer.png"
 const Projects = () => {
     return (
         <div id='projects'>
-            <h3 className='text-white text-center mt-8'>My Recent Work</h3>
+            <h3 className='text-white font-bold text-center mt-8'>My Recent Work</h3>
             <h2 className='text-primary text-3xl text-center mb-8'>Projects</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 <div className="card card-compact lg:max-w-lg bg-slate-900 text-white shadow-xl">
@@ -19,7 +19,7 @@ const Projects = () => {
                             <a href="https://manufacturer-website-a012f.web.app/" target="_blank"><button className="btn btn-xs btn-outline btn-secondary">Live Demo</button></a>
                             <a href="https://github.com/Proloycb/manufacturer-website-client-side" target="_blank"><button className="btn btn-xs btn-outline btn-secondary">Client Code</button></a>
                             <a href="https://github.com/Proloycb/manufacturer-website-server-side" target="_blank"><button className="btn btn-xs btn-outline btn-secondary">Server Code</button></a>
-                            <Link to="/"><button className="btn btn-xs btn-outline btn-secondary">Details</button></Link>
+                            <Link to="/projectsDetail1"><button className="btn btn-xs btn-outline btn-secondary">Details</button></Link>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ const Projects = () => {
                             <a href="https://gym-equipment-warehouse-7ae7e.web.app/" target="_blank"><button className="btn btn-xs btn-outline btn-secondary">Live Demo</button></a>
                             <a href="https://github.com/Proloycb/warehouse-management-client-side" target="_blank"><button className="btn btn-xs btn-outline btn-secondary">Client Code</button></a>
                             <a href="https://github.com/Proloycb/warehouse-management-server-side" target="_blank"><button className="btn btn-xs btn-outline btn-secondary">Server Code</button></a>
-                            <Link to="/"><button className="btn btn-xs btn-outline btn-secondary">Details</button></Link>
+                            <Link to="/projectsDetail2"><button className="btn btn-xs btn-outline btn-secondary">Details</button></Link>
                         </div>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const Projects = () => {
                         <div className="card-actions pb-2">
                             <a href="https://independent-service-prov-c505a.web.app/" target="_blank"><button className="btn btn-xs btn-outline btn-secondary">Live Demo</button></a>
                             <a href="https://github.com/Proloycb/independent-service-provider" target="_blank"><button className="btn btn-xs btn-outline btn-secondary">Code</button></a>
-                            <Link to="/"><button className="btn btn-xs btn-outline btn-secondary">Details</button></Link>
+                            <Link to="/projectsDetail3"><button className="btn btn-xs btn-outline btn-secondary">Details</button></Link>
                         </div>
                     </div>
                 </div>
